@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             if (breedData.destaque == false) {
                 destaqueButton.innerHTML = 'Destacar';
-                destaqueButton.classList.add('btn-primary')
+                destaqueButton.classList.add('btn-primary');
                 destaqueButton.classList.remove('btn-danger');
             } else {
                 destaqueButton.textContent = 'Remover Destaque';
@@ -56,44 +56,42 @@ document.addEventListener('DOMContentLoaded', function () {
 
                 row.appendChild(card);
             }
+
+            destaqueButton.addEventListener('click', function () {
+                updateAPI(breed);
+            });
         })
         .catch(error => {
             alert(error);
         });
 });
 
-destaqueButton.onclick = function () {
-    updateAPI(breed)
-};
-
 async function updateAPI(breed) {
     try {
         const data = await fetchData();
-
         const breedData = data.find(e => e.name === breed);
+
+        breedData.destaque = !breedData.destaque;
+
+        const response = await fetch(`http://localhost:3000/breeds/${breedData.id}`, {
+            method: 'PUT',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(breedData),
+        });
+
+        if (! response.ok) {
+            throw new Error('Falha ao atualizar a API');
+        }
+
+        const destaqueButton = document.getElementById('destaqueButton');
         if (breedData.destaque == false) {
-            breedData.destaque = true;
-            const response = await fetch(' http://localhost:3000/breeds/' + breedData.id, {
-                method: 'PUT',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify(breedData),
-            });
-
-            if (! response.ok) {
-                throw new Error('Falha ao atualizar a API');
-            }
+            destaqueButton.innerHTML = 'Destacar';
+            destaqueButton.classList.add('btn-primary');
+            destaqueButton.classList.remove('btn-danger');
         } else {
-            breedData.destaque = false;
-
-            const response = await fetch(' http://localhost:3000/breeds/' + breedData.id, {
-                method: 'PATCH',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify(breedData),
-            });
-
-            if (! response.ok) {
-                throw new Error('Falha ao atualizar a API');
-            }
+            destaqueButton.textContent = 'Remover Destaque';
+            destaqueButton.classList.remove('btn-primary');
+            destaqueButton.classList.add('btn-danger');
         }
     } catch (error) {
         alert(error.message);
