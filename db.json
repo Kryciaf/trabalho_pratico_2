@@ -1,0 +1,300 @@
+{
+  "breeds": [
+    {
+      "id": 1,
+      "name": "Angora",
+      "destaque": false,
+      "images_path": "angora",
+      "description": "Conhecido por sua pelagem longa e sedosa e personalidade brincalhona.",
+      "sub_descriptions": [
+        "Angora, elegância felina de pelos longos e olhos expressivos.",
+        "Pelo sedoso, olhos intensos: o gato Angora, sinônimo de beleza.",
+        "Charme em pelos: o Angora, gato de olhar cativante e pelagem exuberante.",
+        "Elegância pura: Angora, gato de pelos longos e postura graciosa.",
+        "Angora, sinfonia de suavidade em uma pelagem deslumbrante.",
+        "Olhos profundos, pelagem suntuosa: o encanto do gato Angora.",
+        "Angora, beleza etérea em um corpo esbelto e pelagem exótica.",
+        "Gato Angora, mistura de elegância e afeto em pelos longos.",
+        "Pelos como seda, olhos de encantar: Angora, símbolo de beleza.",
+        "Majestoso e peludo, o Angora exala charme e sofisticação.",
+        "Angora, gato de pelagem luxuosa, olhos expressivos e amoroso.",
+        "Suavidade em movimento: o Angora, gato de pelos longos e beleza ímpar."
+      ],
+      "location": "Turquia",
+      "register_time": "15/05/2020",
+      "images_count": 13
+    },
+    {
+      "id": 2,
+      "name": "Bengal",
+      "destaque": true,
+      "images_path": "bengal",
+      "description": "Caracterizado por sua pelagem com manchas ou padrões marmorizados.",
+      "sub_descriptions": [
+        "Bengal, felino selvagem em miniatura, pele marcada e olhos intensos.",
+        "Pelagem marcada, olhos expressivos: o Bengal, elegância exótica.",
+        "Bengal, gato com manchas e listras, ferozmente belo.",
+        "Bengal, esbelto e marcante, com pelagem única e expressiva.",
+        "Pelagem marmorizada, olhos penetrantes: o Bengal é fascínio felino.",
+        "Gato Bengal, mistura de selvageria e graça em pelagem exuberante.",
+        "Pelagem tigrada, olhar magnético: o Bengal, gato de presença marcante.",
+        "Bengal, gato exótico com pelagem de padrões hipnotizantes.",
+        "Bengal, elegância selvagem: manchas, listras e olhos cativantes.",
+        "Gato Bengal, beleza feroz em pelagem única e olhos intensos.",
+        "Pelagem dourada, olhos de mistério: o Bengal, felino único.",
+        "Bengal, gato de pelagem selvagem e olhos que encantam."
+      ],
+      "location": "Estados Unidos",
+      "register_time": "08/10/2019",
+      "images_count": 13
+    },
+    {
+      "id": 3,
+      "name": "Britânico",
+      "destaque": false,
+      "images_path": "britanico",
+      "description": "Conhecido por seu rosto arredondado e pelagem densa.",
+      "sub_descriptions": [
+        "Britânico: gato compacto, pelagem densa, olhar tranquilo.",
+        "Elegância britânica: gato robusto, pelagem suave, temperamento doce.",
+        "Olhos redondos, pelagem espessa: o charme clássico do Britânico.",
+        "Britânico, gato amigável de pelagem curta e postura graciosa.",
+        "Charme peludo: Britânico, gato de pelagem densa e olhos expressivos.",
+        "Compacto e fofo, o Britânico conquista com sua pelagem macia.",
+        "Britânico, gato de olhar doce e pelagem aveludada.",
+        "Pelagem curta, olhar sereno: o Britânico, gato de tranquilidade.",
+        "Gato Britânico, elegância discreta em pelagem curta e espessa.",
+        "Pelagem suave, olhar meigo: o Britânico, gato de ternura.",
+        "Britânico, gato de pelagem curta e atitude relaxada.",
+        "Charme clássico: o Britânico, gato compacto e amigável."
+      ],
+      "location": "Reino Unido",
+      "register_time": "20/02/2021",
+      "images_count": 13
+    },
+    {
+      "id": 4,
+      "name": "Maine Coon",
+      "destaque": false,
+      "images_path": "maine",
+      "description": "É uma das maiores raças domésticas, conhecido por suas orelhas com tufos.",
+      "sub_descriptions": [
+        "Majestoso e peludo, o Maine Coon encanta com sua elegância única.",
+        "Gigante afetuoso, olhos expressivos e pelagem exuberante.",
+        "Charmoso Maine Coon, gentil e com uma cauda espetacular.",
+        "Pelagem luxuosa, corpo imponente: o Maine Coon é puro encanto.",
+        "Gato nobre, o Maine Coon conquista com sua presença imponente.",
+        "Elegância felina: o Maine Coon, grande e de pelagem exótica.",
+        "Companheiro brincalhão, o Maine Coon esbanja charme e carisma.",
+        "Olhos penetrantes, pelagem deslumbrante.",
+        "Natureza dócil, pelagem magnífica: o Maine Coon é cativante.",
+        "Gigante e cativante, o Maine Coon é pura beleza felina.",
+        "Cauda exuberante, olhar envolvente: o encanto do Maine Coon.",
+        "Grandeza e afeto: o Maine Coon, um gato de personalidade única."
+      ],
+      "location": "Estados Unidos",
+      "register_time": "30/08/2018",
+      "images_count": 13
+    },
+    {
+      "id": 5,
+      "name": "Persa",
+      "destaque": false,
+      "images_path": "persa",
+      "description": "Reconhecido por sua pelagem longa e luxuosa e rosto achatado distintivo.",
+      "sub_descriptions": [
+        "Persa, majestade em pelos longos e olhos expressivos.",
+        "Pelagem luxuosa, olhar cativante: o Persa, elegância felina.",
+        "Persa, gato nobre de pelagem exuberante e atitude serena.",
+        "Gato Persa, beleza real em pelos longos e expressão suave.",
+        "Pelagem densa, olhos de encanto: o Persa, puro refinamento.",
+        "Persa, gato aristocrático de pelos longos e postura serena.",
+        "Elegância em movimento: o Persa, gato de pelagem opulenta.",
+        "Persa, sinfonia de suavidade em pelos longos e olhos grandes.",
+        "Gato Persa, pelagem como seda, olhar de nobreza.",
+        "Pelagem exuberante, postura graciosa: o Persa, pura elegância.",
+        "Persa, gato de pelagem densa e olhos que hipnotizam.",
+        "Eterna nobreza: o Persa, gato de pelos longos e temperamento afável."
+      ],
+      "location": "Irã",
+      "register_time": "12/12/2017",
+      "images_count": 13
+    },
+    {
+      "id": 6,
+      "name": "Ragdoll",
+      "destaque": false,
+      "images_path": "ragdoll",
+      "description": "Conhecido por seu temperamento dócil e olhos azuis marcantes.",
+      "sub_descriptions": [
+        "Ragdoll, gato dócil com pelagem macia e olhos azuis hipnotizantes.",
+        "Olhos azuis e pelagem sedosa: o Ragdoll, gato de tranquilidade.",
+        "Ragdoll, elegância relaxada em pelos longos e olhar meigo.",
+        "Gato Ragdoll, pelagem suave e atitude serena de 'boneca de pano'",
+        "Persa, gato aristocrático de pelos longos e postura serena.",
+        "Pelagem macia, olhar dócil: o Ragdoll, gato de pura serenidade.",
+        "Ragdoll, gato peludo de olhos azuis e temperamento afável.",
+        "Pelagem fofa, olhos azuis expressivos: o Ragdoll é encanto puro.",
+        "Gato Ragdoll, pelagem luxuosa e postura relaxada como uma boneca.",
+        "Olhos azuis profundos, pelagem macia: o Ragdoll, gato relaxado.",
+        "Ragdoll, gato de pelos longos e olhos que transmitem calma.",
+        "Pelagem sedosa, olhar tranquilo: o Ragdoll, gato de ternura.",
+        "Ragdoll, gato peludo e amoroso, com olhos azuis hipnotizantes."
+      ],
+      "location": "Estados Unidos",
+      "register_time": "25/04/2019",
+      "images_count": 13
+    },
+    {
+      "id": 7,
+      "name": "Siames",
+      "destaque": false,
+      "images_path": "siames",
+      "description": "Reconhecido por seu corpo esguio e olhos amendoados azuis marcantes.",
+      "sub_descriptions": [
+        "Siames, elegância em cores contrastantes e olhos azuis intensos.",
+        "Olhos azuis penetrantes, pelagem marcante: o Siames, felino cativante.",
+        "Gato Siames, pelagem curta e expressão vocal única.",
+        "Siames, gato de temperamento expressivo e olhar magnético.",
+        "Pelagem pontilhada, olhos azuis: o Siames, charme tailandês.",
+        "Siames, gato vocal e carismático com pelagem curta.",
+        "Olhos azuis profundos, pelagem curta: o Siames, fascinação felina.",
+        "Siames, elegância oriental em pelagem curta e postura grácil.",
+        "Pelagem curta, olhos intensos: o Siames, gato de personalidade.",
+        "Gato Siames, pelagem clara, olhos azuis e charme cativante.",
+        "Siames, gato de pelagem curta e olhos azuis hipnotizantes.",
+        "Elegância vocal: o Siames, felino com pelagem curta e expressiva."
+      ],
+      "location": "Tailândia",
+      "register_time": "10/07/2022",
+      "images_count": 13
+    },
+    {
+      "id": 8,
+      "name": "Sphynx",
+      "destaque": false,
+      "images_path": "sphynx",
+      "description": "O gato Sphynx é conhecido por sua falta de pelos e pele enrugada.",
+      "sub_descriptions": [
+        "Sphynx, beleza sem pelos, pele aveludada e olhar expressivo.",
+        "Gato sem pelos, o Sphynx, cativa com sua pele quente.",
+        "Sphynx, gato nu, elegância em sua pele macia e quente.",
+        "Sphynx, felino sem pelos, olhos intensos e postura única.",
+        "Sem pelos, olhos hipnotizantes: o Sphynx, gato cativante.",
+        "Sphynx, gato nu de pele aveludada e olhos penetrantes.",
+        "Gato sem pelos, o Sphynx, revela beleza na ausência.",
+        "Sphynx, elegância felina em pele lisa e olhos magnéticos.",
+        "Gato sem pelos, o Sphynx, conquista com sua suavidade.",
+        "Sphynx, gato sem pelos, olhos marcantes e postura única.",
+        "Sem pelos, cheio de charme: o Sphynx, felino especial.",
+        "Sphynx, gato sem pelos, expressão fascinante e pele quente."
+      ],
+      "location": "Canadá",
+      "register_time": "18/11/2020",
+      "images_count": 13
+    },
+    {
+      "name": "carrocel",
+      "images_path": "carrocel",
+      "images_count": 3
+    }
+  ],
+  "map": [
+    {
+      "name": "Angora",
+      "location": {
+        "address": "Istiklal Caddesi, Beyoglu, Istambul, Turquia",
+        "city": "Istambul",
+        "latlong": [
+          28.9617,
+          41.0151
+        ],
+        "color": "red"
+      }
+    },
+    {
+      "name": "Bengal",
+      "location": {
+        "address": "Times Square, Nova Iorque, EUA",
+        "city": "Nova Iorque",
+        "latlong": [
+          -73.9866,
+          40.7306
+        ],
+        "color": "red"
+      }
+    },
+    {
+      "name": "Britânico",
+      "location": {
+        "address": "Buckingham Palace Road, Londres, Reino Unido",
+        "city": "Londres",
+        "latlong": [
+          -0.128,
+          51.5074
+        ],
+        "color": "red"
+      }
+    },
+    {
+      "name": "Maine Coon",
+      "location": {
+        "address": "Central Park, Nova Iorque, EUA",
+        "city": "Nova Iorque",
+        "latlong": [
+          -73.9352,
+          40.7004
+        ],
+        "color": "red"
+      }
+    },
+    {
+      "name": "Persa",
+      "location": {
+        "address": "Azadi Tower, Teerã, Irã",
+        "city": "Teerã",
+        "latlong": [
+          51.389,
+          35.6895
+        ],
+        "color": "blue"
+      }
+    },
+    {
+      "name": "Ragdoll",
+      "location": {
+        "address": "Casa dos Pássaros, Toronto, Canadá",
+        "city": "Toronto",
+        "latlong": [
+          -79.828,
+          43.589
+        ],
+        "color": "blue"
+      }
+    },
+    {
+      "name": "Siames",
+      "location": {
+        "address": "Phaya Thai, Bangcoc, Tailândia",
+        "city": "Bangcoc",
+        "latlong": [
+          100.5167,
+          13.7563
+        ],
+        "color": "green"
+      }
+    },
+    {
+      "name": "Sphynx",
+      "location": {
+        "address": "Phaya Thai, Bangcoc, Tailândia",
+        "city": "Bangcoc",
+        "latlong": [
+          100.5167,
+          13.7563
+        ],
+        "color": "green"
+      }
+    }
+  ]
+}
